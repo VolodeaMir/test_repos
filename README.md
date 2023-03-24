@@ -41,8 +41,6 @@ string[] strArray = Array.FindAll(elArray, el => el.Length <= 3);
 ``` 
 ##  - происходит перебор значений из массива elArray по условию - что это значение должно быть меньше либо ровно 3 и те значения которые удовлетворяют условие присваивается массиву strArray а которые не прошли по условию не попадают в этот массив.
 
-> <image src="images/Контрольная_работа.png" alt="Контрольная работа" border="7px solid red" />
-
 ## Далее часть кода 
 ```
  Console.Write("[");
@@ -61,3 +59,5 @@ string[] strArray = Array.FindAll(elArray, el => el.Length <= 3);
  else Console.Write("]");
  ```
 ## выводит результат в консоль пользователю.
+
+> <image src="images/Контрольная_работа.png" alt="Контрольная работа" border="7px solid red" />
